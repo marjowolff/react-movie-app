@@ -50,6 +50,7 @@ class FormMovie extends React.Component {
                         name="title"
                         onChange={this.onChange}
                         value={this.state.title}
+                        required
                         />
                     </div>
 
@@ -61,6 +62,7 @@ class FormMovie extends React.Component {
                         name="poster"
                         onChange={this.onChange}
                         value={this.state.poster}
+                        required
                         />
                     </div>
 
@@ -72,6 +74,7 @@ class FormMovie extends React.Component {
                         name="comment"
                         onChange={this.onChange}
                         value={this.state.comment}
+                        required
                         />
                     </div>
                     <hr />
